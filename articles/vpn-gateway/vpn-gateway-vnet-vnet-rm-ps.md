@@ -341,7 +341,7 @@ ms.lasthandoff: 03/31/2017
 3. 创建新的资源组
    
         New-AzureRmResourceGroup -Name $RG5 -Location $Location5
-4. 创建 TestVNet4 的子网配置
+4. 创建 TestVNet5 的子网配置
    
         $fesub5 = New-AzureRmVirtualNetworkSubnetConfig -Name $FESubName5 -AddressPrefix $FESubPrefix5
         $besub5 = New-AzureRmVirtualNetworkSubnetConfig -Name $BESubName5 -AddressPrefix $BESubPrefix5
